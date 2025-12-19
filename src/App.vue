@@ -1,8 +1,6 @@
-<script setup>
-const name = 'cyz'
-console.log(name)
-</script>
-
+<script setup></script>
 <template>
-  <div></div>
+  <div>
+    <router-view></router-view>
+  </div>
 </template>

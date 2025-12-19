@@ -58,6 +58,13 @@ export default defineConfig([
       ],
       'vue/no-setup-props-destructure': ['off'], // 关闭 props 解构校验 (props解构丢失响应式)
       'no-undef': 'error' // 未定义变量报错
+    },
+    languageOptions: {
+      globals: {
+        ElMessage: 'readonly',
+        ElMessageBox: 'readonly',
+        ElLoading: 'readonly'
+      }
     }
   }
 ])
